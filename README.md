@@ -1,2 +1,9 @@
-# StupidDat
-Secret Text Encrypter
+### StupidDat
+## How to run
+# git
+
+Firstly git clone this repository
+
+```
+
+```
