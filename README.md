@@ -24,7 +24,7 @@ EOF
 source ~/.bashrc
 ```
 
-This will install u a shortcut and if you say a specific word it'll run a specific word, all the shortcuts are listed down here
+This will install u a shortcut and if you say a specific word it'll run a specific programing language, all the shortcuts are listed down here
 
 ```
 python = pdat
