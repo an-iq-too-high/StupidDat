@@ -9,10 +9,29 @@ git clone https://github.com/an-iq-too-high/StupidDat
 ```
 # Run it
 
-Easy, say this
+be4 u run it, say this
 
 ```
-node stupiddat.js
+cat << 'EOF' >> ~/.bashrc
+
+# --- STUPIDDAT VAULT ALIAS ENGINE MATRIX ---
+alias pdat="python3 ~/StupidDat/stupiddat.py"
+alias jsdat="node ~/StupidDat/stupiddat.js"
+alias jvdat="java -cp ~/StupidDat StupidDat"
+alias rdat="ruby ~/StupidDat/stupiddat.rb"
+alias cppdat="~/StupidDat/stupiddat"
+EOF
+source ~/.bashrc
+```
+
+This will install u a shortcut and if you say a specific word it'll run a specific word, all the shortcuts are listed down here
+
+```
+python = pdat
+C++ = cppdat
+ruby = rdat
+java = jvdat
+javascript = jsdat
 ```
 # Code
 
